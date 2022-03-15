@@ -137,27 +137,3 @@ public class Circle {
         }
     }
 }
-
-
-
-
-/*
-        int intersections = 0;
-        for (double degree = 0; degree<=359;degree++) {
-            X1 = XFirstCircleCenter + (Math.cos(degree)*radiusFirst);
-            Y1 = YFirstCircleCenter + (Math.sin(degree)*radiusFirst);
-            for (degree = 0; degree<=359;degree++) {
-                X2 = XSecondCircleCenter + (Math.cos(degree)*radiusSecond);
-                Y2 = YSecondCircleCenter + (Math.sin(degree)*radiusSecond);
-                if ((X2==X1) && (Y2==Y1))
-                    intersections++;
-            }
-
-        }
-        if ((intersections==1) || (intersections==2))
-            System.out.println("The circles have " + intersections + " intersections.");
-        else if (intersections==0)
-            System.out.println("The circles don't have any intersections.");
-        else
-            System.out.println("The circles have the same centre coordinates and radius, i.e. they are identical.");
-*/
